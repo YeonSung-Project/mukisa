@@ -16,4 +16,9 @@ public class testController {
         return "login.html";
     }
 
+    @GetMapping("/logout")
+    public String logout(){
+        return "logout.html";
+    }
+
 }
