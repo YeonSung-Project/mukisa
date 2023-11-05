@@ -9,9 +9,6 @@ public class TeaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TeaApplication.class, args);
 	}
-    1
-	2
-	3
-	4
+    System.out.println("test");
 	
 }
