@@ -10,4 +10,10 @@ public class testController {
     public String testCon(){
         return "test";
     }
+
+    @GetMapping("/login")
+    public String login(){
+        return "login.html";
+    }
+
 }
